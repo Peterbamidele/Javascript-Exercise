@@ -12,4 +12,5 @@ if(number >0){
   console.log("The number is postive");
 }
 
+console.log(number);
 

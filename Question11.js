@@ -6,7 +6,6 @@ function possibleSandwiches(bread) {
     let integer=0
     integer=bread/2
     return integer
-
 }
 
 console.log(possibleSandwiches(bread))
@@ -14,6 +13,7 @@ console.log(possibleSandwiches(bread))
 function possibleSandwichesWithCheese(bread, cheese) {
     let integers = 0;
     let possibleSandwichesBreadOnly=0
+    
     possibleSandwichesBreadOnly=possibleSandwiches(bread)
 
     if(possibleSandwichesBreadOnly>1)
